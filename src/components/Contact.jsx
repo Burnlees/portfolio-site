@@ -156,7 +156,7 @@ export const Contact = () => {
             >
               Contact <span className="text-primary-600">Me</span>
             </motion.h1>
-            <div className="lg:flex lg:flex-row-reverse lg:gap-20 lg:w-full lg:items-start">
+            <div className="lg:flex lg:flex-row-reverse lg:gap-20 lg:w-full lg:items-start lg:justify-between">
               <motion.p
                 initial={{ x: 100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
