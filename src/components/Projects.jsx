@@ -23,7 +23,7 @@ export const Projects = () => {
         whileInView={{ x: 0, opacity: 1 }}
         initial={{ x: 200, opacity: 0 }}
         transition={{ duration: 1.5, delay: 0 }}
-        className="flex gap-4 flex-wrap"
+        className="flex gap-4 flex-wrap justify-center"
       >
         {projects.map((project) => {
           return (
@@ -31,6 +31,7 @@ export const Projects = () => {
               title={project.title}
               desc={project.desc}
               img={project.img}
+              finished={project.finished}
               setCaseStudy={setCaseStudy}
             />
           );

@@ -3,11 +3,19 @@ export const projects = [
     title: "Northcoders News",
     desc: "A full stack Web Application",
     img: "src/assets/nc-news-card.png",
+    finished: true,
   },
   {
     title: "Ekans",
     desc: "Reverse snake Game",
     img: "src/assets/ekans-card.png",
+    finished: true,
+  },
+  {
+    title: "Algorithmic Trading Bot",
+    desc: "Automated Finacial Asset Trading",
+    img: "src/assets/trading-bot-card.jpg",
+    finished: false,
   },
 ];
 
@@ -88,38 +96,38 @@ export const caseStudies = [
     ],
     overview:
       "Ekans is a unique twist on the classic Snake game developed as the final project of the Northcoders bootcamp. Our team of four built this game in just over a week, with each member contributing to different aspects of the project. This project marked my first venture into game development, leveraging the fundamentals of computer programming and soft skills I acquired during the bootcamp. Developed using Godot and GDScript, Ekans reverses the traditional mechanics of Snake by starting the player with a fully grown snake that shrinks as it eats food. As the snake shrinks, it drops poops that clutter the map, creating deadly obstacles that increase the difficulty.",
-      keyFeatures: [
-        {
-          feature: "Reverse Snake Dynamics",
-          description:
-            "Starts with a fully grown snake that shrinks when eating food, reversing traditional Snake mechanics for a unique gameplay experience.",
-        },
-        {
-          feature: "Dynamic Hazard Generation",
-          description:
-            "Shrinking snake leaves behind hazardous obstacles, adding strategic depth and increasing difficulty as the game progresses.",
-        },
-        {
-          feature: "Intuitive and Responsive Controls",
-          description:
-            "Smooth and responsive controls ensure seamless gameplay and easy navigation, appealing to a wide range of players.",
-        },
-        {
-          feature: "Escalating Difficulty",
-          description:
-            "Game complexity increases as obstacles clutter the play area, maintaining player engagement with new challenges.",
-        },
-        {
-          feature: "Mobile Optimization",
-          description:
-            "Optimized for mobile performance, providing a smooth gaming experience on the go with a dedicated mobile version.",
-        },
-        {
-          feature: "Secure Firebase Authentication",
-          description:
-            "Uses Firebase for robust user authentication, leveraging GDScript for secure and efficient user management.",
-        },
-      ],
+    keyFeatures: [
+      {
+        feature: "Reverse Snake Dynamics",
+        description:
+          "Starts with a fully grown snake that shrinks when eating food, reversing traditional Snake mechanics for a unique gameplay experience.",
+      },
+      {
+        feature: "Dynamic Hazard Generation",
+        description:
+          "Shrinking snake leaves behind hazardous obstacles, adding strategic depth and increasing difficulty as the game progresses.",
+      },
+      {
+        feature: "Intuitive and Responsive Controls",
+        description:
+          "Smooth and responsive controls ensure seamless gameplay and easy navigation, appealing to a wide range of players.",
+      },
+      {
+        feature: "Escalating Difficulty",
+        description:
+          "Game complexity increases as obstacles clutter the play area, maintaining player engagement with new challenges.",
+      },
+      {
+        feature: "Mobile Optimization",
+        description:
+          "Optimized for mobile performance, providing a smooth gaming experience on the go with a dedicated mobile version.",
+      },
+      {
+        feature: "Secure Firebase Authentication",
+        description:
+          "Uses Firebase for robust user authentication, leveraging GDScript for secure and efficient user management.",
+      },
+    ],
     technologiesUsed: [
       "Godot",
       "GDScript",
