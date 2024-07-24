@@ -9,7 +9,7 @@ const container = (delay) => ({
 export const About = () => {
   return (
     <div className="pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-between">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
@@ -72,6 +72,18 @@ export const About = () => {
             </motion.p>
           </div>
         </div>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 1.8 }}
+          className="my-auto mx-auto lg:mt-64"
+        >
+          <img
+            src="src/assets/about-image.jpg"
+            alt=""
+            className="rounded-xl w-72"
+          />
+        </motion.div>
       </div>
     </div>
   );

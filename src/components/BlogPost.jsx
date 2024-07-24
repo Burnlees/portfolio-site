@@ -24,7 +24,7 @@ export const BlogPost = () => {
   }, [id]);
 
   if (!postData) {
-    return <div>Loading...</div>;
+    return;
   }
 
   return (
@@ -32,11 +32,24 @@ export const BlogPost = () => {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{duration: 0.5, delay: 0.2}}
+              className="breadcrumbs text-sm w-full ml-2"
+            >
+              <ul>
+                <li>
+                  <a href="/blog">Blogs</a>
+                </li>
+                <li>{postData.data.title}</li>
+              </ul>
+            </motion.div>
             <motion.h1
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="pb-16 text-6xl font-thin tracking-tight mt-16 lg:text-8xl"
             >
               {postData.data.title}
             </motion.h1>

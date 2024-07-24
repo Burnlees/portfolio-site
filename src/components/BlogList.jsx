@@ -30,7 +30,7 @@ export const BlogList = () => {
             >
               {postsData.map((post) => {
                 return (
-                  <li key={post.data.id}>
+                  <li key={post.id}>
                     <div className="my-2 max-w-xl py-6 font-light text-justify border-b border-primary-600">
                       <Link to={`/blog/${post.id}`}>
                         <p className="font-bold">{post.data.title}</p>
