@@ -3,12 +3,13 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png'
 
 export const NavBar = () => {
   return (
     <div className="navbar bg-base-100 bg-black shadow-2xl justify-between mb-20">
       <a className="btn btn-ghost text-xl text-primary-100" href="/">
-        <img src="src/assets/transparent_2024-07-17T08-27-07.png" width={40} />
+        <img src={logo} alt="Josh Burnlees Logo" width={40} />
       </a>
       <div className="text-primary-600">
         <a className="btn btn-ghost text-xl" href="https://github.com/Burnlees">
