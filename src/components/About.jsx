@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import aboutImage from "../assets/about-image.jpg"
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -79,8 +80,8 @@ export const About = () => {
           className="my-auto mx-auto lg:mt-64"
         >
           <img
-            src="src/assets/about-image.jpg"
-            alt=""
+            src={aboutImage}
+            alt="Josh and his girlfriend"
             className="rounded-xl w-72"
           />
         </motion.div>

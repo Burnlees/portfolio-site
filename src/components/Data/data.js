@@ -1,20 +1,32 @@
+import ncCardImage from "../../assets/nc-news-card.png";
+import ekansCardImage from "../../assets/ekans-card.png";
+import tradingCardImage from "../../assets/trading-bot-card.jpg";
+
+import ncCarouselOne from "../../assets/nc-carousel-1.png";
+import ncCarouselTwo from "../../assets/nc-carousel-2.png";
+import ncCarouselThree from "../../assets/nc-carousel-3.png";
+
+import ekansCarouselOne from "../../assets/ekans-carousel-1.png";
+import ekansCarouselTwo from "../../assets/ekans-carousel-2.png";
+import ekansCarouselThree from "../../assets/ekans-carousel-3.png";
+
 export const projects = [
   {
     title: "Northcoders News",
     desc: "A full stack Web Application",
-    img: "src/assets/nc-news-card.png",
+    img: ncCardImage,
     finished: true,
   },
   {
     title: "Ekans",
     desc: "Reverse snake Game",
-    img: "src/assets/ekans-card.png",
+    img: ekansCardImage,
     finished: true,
   },
   {
     title: "Algorithmic Trading Bot",
     desc: "Automated Finacial Asset Trading",
-    img: "src/assets/trading-bot-card.jpg",
+    img: tradingCardImage,
     finished: false,
   },
 ];
@@ -28,9 +40,9 @@ export const caseStudies = [
       "Live Version": "https://northcoders-news-desk.netlify.app/",
     },
     carouselImages: [
-      { id: "nc-news1", imgPath: "src/assets/nc-carousel-1.png" },
-      { id: "nc-news2", imgPath: "src/assets/nc-carousel-2.png" },
-      { id: "nc-news3", imgPath: "src/assets/nc-carousel-3.png" },
+      { id: "nc-news1", imgPath: ncCarouselOne },
+      { id: "nc-news2", imgPath: ncCarouselTwo },
+      { id: "nc-news3", imgPath: ncCarouselThree },
     ],
     overview:
       "A few weeks ago, I completed a challenging and rewarding project as part of the Northcoders bootcamp. This project involved building a full-stack web application that seamlessly integrates a React.js front end with an Express.js and PostgreSQL (PSQL) back end.",
@@ -90,9 +102,9 @@ export const caseStudies = [
       "GitHub Repo": "https://github.com/house-of-the-badger/ekansREBORN",
     },
     carouselImages: [
-      { id: "ekans1", imgPath: "src/assets/ekans-carousel-1.png" },
-      { id: "ekans2", imgPath: "src/assets/ekans-carousel-2.png" },
-      { id: "ekans3", imgPath: "src/assets/ekans-carousel-3.png" },
+      { id: "ekans1", imgPath: ekansCarouselOne },
+      { id: "ekans2", imgPath: ekansCarouselTwo },
+      { id: "ekans3", imgPath: ekansCarouselThree },
     ],
     overview:
       "Ekans is a unique twist on the classic Snake game developed as the final project of the Northcoders bootcamp. Our team of four built this game in just over a week, with each member contributing to different aspects of the project. This project marked my first venture into game development, leveraging the fundamentals of computer programming and soft skills I acquired during the bootcamp. Developed using Godot and GDScript, Ekans reverses the traditional mechanics of Snake by starting the player with a fully grown snake that shrinks as it eats food. As the snake shrinks, it drops poops that clutter the map, creating deadly obstacles that increase the difficulty.",

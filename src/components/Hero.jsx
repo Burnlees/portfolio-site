@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import logo from '../assets/logo.png'
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -45,8 +46,8 @@ export const Hero = () => {
           className="w-full lg:w-1/2 lg:p-8 flex items-end justify-center"
         >
           <img
-            src="src/assets/transparent_2024-07-17T08-27-07.png"
-            alt=""
+            src={logo}
+            alt="Josh Burnlees Logo"
             className="h-96"
           />
         </motion.div>
