@@ -1,8 +1,14 @@
-# React + Vite
+# Portfolio Site
+Welcome to my portfolio site! This project showcases my work and includes case studies, an about page, a contact form, and a blog.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- Built with Vite and React.js: Modern, fast, and reactive frontend experience.
+- Case Studies: Detailed projects and work examples.
+- About Page: Information about me and my background.
+- Contact Form: Integrated with EmailJS for seamless email communication.
+- Blog: Powered by Gray Matter and React-Markdown for dynamic content.
+- Animations: Implemented with Framer Motion to enhance user interactions.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Back-end Management
+- AWS Route 53: For DNS management.
+- AWS Amplify: For continuous integration and continuous deployment (CI/CD).
